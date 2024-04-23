@@ -1,0 +1,13 @@
+$fs30: 30px;
+$fsColor: blue;
+$primaryColor: orange;
+
+// 给 scss 使用的, 通过 @include 引入
+@mixin border() {
+    border: 1px solid red;
+}
+
+// 专门给 js 代码使用的
+:export {
+    primaryColor: $primaryColor
+}

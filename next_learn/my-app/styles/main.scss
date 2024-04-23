@@ -1,0 +1,8 @@
+@use "./variables.scss" as *;
+
+$fsColor: green;
+
+.global-style2 {
+    color: $fsColor;
+    @include border();
+}
